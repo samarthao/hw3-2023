@@ -1,0 +1,130 @@
+body{
+    line-height: 1.5;
+    /* Set line spacing */
+}
+
+
+header, nav{
+    padding: 15px 20px 10px 20px;
+    margin: 20px;
+    /* Set padding and margin */
+
+}
+nav ul li{
+    display: inline;
+    margin-left: 100px;
+    margin-right:50px;
+    padding: 20px;
+    background-color: powderblue;
+    font-size: 30px;
+    /* Set display, margin, padding, font-size, background-color */
+
+}
+
+nav a{
+    text-decoration: none black;
+    /* Set text decoration*/
+}
+
+a:visited{
+    color: black;
+    /* Set color */
+
+}
+
+nav a.current{
+    text-decoration: underline wavy;
+    text-underline-offset: .5em;
+    text-transform: uppercase;
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   font-size: 60px;
+   font-family: 'Merriweather', 'Anton', 'Times New Roman', 'Verdana';
+    /*Set font and font size*/
+
+}
+
+h2{
+    font-family: 'Anton', 'Times New Roman', 'Helvetica';
+    font-size: 50px;
+    text-align: center;
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    font-size: 40px;
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    margin-top: 15px;
+    /*Set margin */
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    row-gap: 10px;
+    border-radius: 15px;
+    background-color: #8b9fb2;
+    /*Set width, margin, border properties, background color, and grid properties */
+}
+
+.grid div{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: 4px 0px 10px 0px bisque;
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    box-shadow: -4px 0px 10px 0px bisque;
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: -4px 0px 10px 0px bisque, 4px 0px 5px bisque;
+    /* Set box shadow */
+}
+    
+
+p + p {
+    text-indent: 50px;
+     /* Set indentation */
+  }
+  
+p{
+    margin-block: 2px 0px 0px 0px;
+    /* Set margin */
+}
+
+
+.grid ul li{
+    line-height: 1;
+    margin: 0px 0px 5px 5px;
+    list-style: inside url('../images/sketchbook.png');
+    /* Set margin, line-spacing, list styling  */
+}
